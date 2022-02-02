@@ -1,0 +1,17 @@
+Not to be used with malicious intent!
+
+USB-NUKE capabilities;
+-Create a backdoor, (An undocumented way of gaining access to the system)
+-Operating with powershell silently
+-Scanning For private information: (username, domain name, password, public and private ip address, geographical co-ordinated)
+
+
+How to use USB-NUKE;
+-Run nuke.exe
+-If the window closes after a couple seconds, this signifies the application has run successfully and
+ Nmap has been successfully been installed and is attempting to connect to the host
+-The scan results can be found in H:\results
+
+
+To remove NUKE.exe's trace from the victims PC, simply run unins.exe in H:\nuke
+In doing this, startupNC.vbs will be deleted, and so will C:\Program Files (x86)\Nmap, wherever it is located

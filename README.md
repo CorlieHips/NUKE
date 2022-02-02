@@ -1,7 +1,11 @@
 # NUKE BY CHARLES
 An executable Backdoor with PowerShell and Ncat. Not to be used with malicious intent!
 
-NUKE is a free to use backdoor installer which uses PowerShell to perform a scan of the Victims device, and then install and run an executable allowing you,
+This program is made to run off of a USB labelled 'NUKE', else it won't work!
+You will also need to change the ip address for the Client program in order to allow the client to find the address to connect to, (see NcatClient.ps1 for where)
+For instructions on setup, see line 25.
+
+NUKE is a free to use backdoor installer which uses PowerShell to perform a scan of the clients device, and then install and run an executable allowing you,
 the host, to operate their system.
 
 results folder is where scan results are stored
